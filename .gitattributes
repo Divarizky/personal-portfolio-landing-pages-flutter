@@ -1,0 +1,15 @@
+# .gitattributes
+
+# Abaikan folder platform
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
+
+# Sembunyikan build artifacts
+build/** linguist-vendored
+
+# Pastikan file Dart tetap terdeteksi
+*.dart linguist-detectable=true
